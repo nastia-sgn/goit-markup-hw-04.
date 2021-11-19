@@ -110,9 +110,6 @@ img {
   align-items: center;
 }
 
-/* .contact-mail {
-  margin-left: auto;
-} */
 .contact-tel-mail {
   margin-left: auto;
 }
@@ -146,6 +143,8 @@ img {
 }
 .contact-tel {
   margin-left: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .contact-link-tel {
@@ -165,6 +164,27 @@ img {
 .contact-link-tel:focus {
   color: var(--accent-color);
 }
+
+.contact-tel-mail::before {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  content: '';
+  background-image: url(../images/icons.svg/icon-mail.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-tel::before {
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  content: '';
+  background-image: url(../images/icons.svg/icon-phone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* -----------------------------FOOTER---------------------------------- */
 .footer {
   padding-top: 60px;
@@ -217,10 +237,19 @@ img {
 /*------------------------------- index.html------------------------------ */
 /* --------HERO------- */
 .hero {
-  background-color: #2f303a;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
   padding: 200px 0;
 }
+
 .hero-title {
   width: 696px;
   margin-right: auto;
