@@ -165,7 +165,7 @@ img {
   color: var(--accent-color);
 }
 
-.contact-tel-mail::before {
+/* .contact-tel-mail::before {
   margin-right: 10px;
   width: 16px;
   height: 12px;
@@ -183,7 +183,7 @@ img {
   background-image: url(../images/icons.svg/icon-phone.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 /* -----------------------------FOOTER---------------------------------- */
 .footer {
@@ -332,6 +332,20 @@ img {
 }
 .section-list:not(:last-child) {
   margin-right: 30px;
+}
+
+.title-icon {
+  width: 70px;
+  height: 70px;
+}
+.bg-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 /* ----------------PEOPLE CARD------------ */
