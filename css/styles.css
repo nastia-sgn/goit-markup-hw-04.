@@ -234,6 +234,24 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.footer-icons {
+  display: flex;
+  width: 206px;
+  height: 80px;
+  margin-right: 70px;
+}
+.footer-icon-title {
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.f-sotial-link {
+  width: 44px;
+  height: 44px;
+}
+
 /*------------------------------- index.html------------------------------ */
 /* --------HERO------- */
 .hero {
@@ -379,6 +397,40 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
+/* -----------CLIENTS------------------- */
+.client-icons {
+  display: flex;
+}
+/* .clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.client-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+
+.client-item:hover,
+.client-item:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.icon-link:hover {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.client-icon {
+  width: 106px;
+  height: 60px;
+  padding-top: 16px;
+  padding-left: 32px;
+}
+
 /*--------------------------- portfolio.html---------------------------- */
 .projects-btn {
   display: flex;
