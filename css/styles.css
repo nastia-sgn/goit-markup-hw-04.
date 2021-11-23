@@ -165,6 +165,22 @@ img {
   color: var(--accent-color);
 }
 
+.header-icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.header-icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.header-icon-tel,
+.header-icon-mail:hover {
+  fill: var(--accent-color);
+}
+
 /* .contact-tel-mail::before {
   margin-right: 10px;
   width: 16px;
@@ -186,6 +202,16 @@ img {
 } */
 
 /* -----------------------------FOOTER---------------------------------- */
+.footer-conteiner {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -211,6 +237,10 @@ img {
   margin-bottom: 9px;
 }
 
+.footer-adress {
+  display: inline;
+}
+
 .adress-map {
   margin-bottom: 9px;
   color: var(--main-color);
@@ -234,22 +264,39 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer-icons {
-  display: flex;
-  width: 206px;
-  height: 80px;
-  margin-right: 70px;
-}
+/* -----icons------------------- */
+
 .footer-icon-title {
   justify-content: center;
   align-items: center;
   color: var(--main-color);
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-icons {
+  width: 206px;
+  height: 80px;
+  margin-right: 70px;
+}
+
+.icon-list {
+  display: flex;
 }
 
 .f-sotial-link {
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
   width: 44px;
   height: 44px;
+}
+
+.logo-item {
+  fill: var(--main-color);
+}
+.logo-svg {
+  fill: var(--main-color);
 }
 
 /*------------------------------- index.html------------------------------ */
@@ -295,7 +342,7 @@ img {
   padding: 10px 32px;
 }
 
-/* -------SECTIONS------- */
+/* --------------SECTIONS------- */
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -397,15 +444,33 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
+.people-sotial-icons {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  margin-left: 32px;
+}
+.sotial-icons {
+  margin-top: 16px;
+  margin-left: 10px;
+  width: 44px;
+  height: 44px;
+}
+.sotial-icons:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
 /* -----------CLIENTS------------------- */
 .client-icons {
   display: flex;
 }
-/* .clients {
+.clients {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
+
 .client-item {
   width: 170px;
   height: 92px;
@@ -424,11 +489,16 @@ img {
   fill: var(--accent-color);
 }
 
+.client-link-icons {
+  align-items: center;
+  justify-content: center;
+}
+
 .client-icon {
   width: 106px;
   height: 60px;
-  padding-top: 16px;
-  padding-left: 32px;
+  /* padding-top: 16px;
+  padding-left: 32px; */
 }
 
 /*--------------------------- portfolio.html---------------------------- */
