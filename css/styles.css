@@ -277,11 +277,20 @@ img {
   margin-bottom: 20px;
 }
 
+.footer-div {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-icons {
   width: 206px;
   height: 80px;
-  margin-right: 70px;
+  margin-left: 70px;
 }
+/* .icon-size {
+  width: 44px;
+  height: 44px;
+} */
 
 .icon-list {
   display: flex;
@@ -301,7 +310,10 @@ img {
 
 .logo-item {
   fill: var(--main-color);
+  width: 44px;
+  height: 44px;
 }
+
 .logo-svg {
   fill: var(--main-color);
 }
