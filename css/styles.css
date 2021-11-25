@@ -274,6 +274,7 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   justify-content: center;
   align-items: center;
   color: var(--main-color);
@@ -290,6 +291,7 @@ img {
   width: 206px;
   height: 80px;
   margin-left: 70px;
+  margin-top: 12px;
 }
 /* .icon-size {
   width: 44px;
@@ -457,6 +459,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
+
 .about-people {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -509,6 +512,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-right: 30px;
+  padding-top: 16px;
 }
 
 .client-item:hover,
@@ -519,6 +523,10 @@ img {
 .icon-link:hover {
   color: var(--accent-color);
   fill: var(--accent-color);
+}
+
+.icon-link {
+  padding-left: 32px;
 }
 
 .client-link-icons {
